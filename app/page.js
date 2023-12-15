@@ -48,7 +48,7 @@ export default function Home() {
             <AiFillYoutube />
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-            <Image src={devkosta} layout='fill' objectFit='cover'/>
+            <Image src={devkosta} alt='image' layout='fill' objectFit='cover'/>
           </div>
         </section>
         
@@ -67,7 +67,7 @@ export default function Home() {
 
           <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
-              <Image src={design} width={100} height={100} className='mx-auto'/>
+              <Image src={design} alt='image' width={100} height={100} className='mx-auto'/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2'>
                 Creating elegant designs suited for your needs following core design theory.
@@ -79,7 +79,7 @@ export default function Home() {
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
-              <Image src={code} width={100} height={100} className='mx-auto'/>
+              <Image src={code} alt='Design image' width={100} height={100} className='mx-auto'/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2'>
                 Creating elegant designs suited for your needs following core design theory.
@@ -91,7 +91,7 @@ export default function Home() {
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
-              <Image src={consulting} width={100} height={100} className='mx-auto'/>
+              <Image src={consulting} alt='image' width={100} height={100} className='mx-auto'/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2'>
                 Creating elegant designs suited for your needs following core design theory.
@@ -108,7 +108,7 @@ export default function Home() {
           <div>
             <h3 className='text-3xl py-1 dark:text-gray-300'>Portfolio</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-300'>
-              Since the beginning of my journey as a freelance designer and developer, I've done remote work for 
+              Since the beginning of my journey as a freelance designer and developer, I&aposve done remote work for 
               <span className='text-teal-500'> agencies </span>consulted for <span className='text-teal-500'>startups </span> and collaborated with talanted people to create digital products for both buseness and consumer use.
             </p>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-300'>
@@ -117,22 +117,22 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
-              <Image src={web1} className='rounded-lg object-cover h-full' width={'100%'} height={'100%'} />
+              <Image src={web1} alt='image' className='rounded-lg object-cover h-full' width={'100%'} height={'100%'} />
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web2} className='rounded-lg object-cover h-full' width={'100%'} height={'100%'} />
+              <Image src={web2} alt='image' className='rounded-lg object-cover h-full' width={'100%'} height={'100%'} />
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web3} className='rounded-lg object-cover h-full' width={'100%'} height={'100%'} />
+              <Image src={web3} alt='image' className='rounded-lg object-cover h-full' width={'100%'} height={'100%'} />
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web4} className='rounded-lg object-cover h-full' width={'100%'} height={'100%'} />
+              <Image src={web4}  alt='image'className='rounded-lg object-cover h-full' width={'100%'} height={'100%'} />
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web5} className='rounded-lg object-cover h-full' width={'100%'} height={'100%'} />
+              <Image src={web5} alt='image' className='rounded-lg object-cover h-full' width={'100%'} height={'100%'} />
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web6} className='rounded-lg object-cover h-full' width={'100%'} height={'100%'} />
+              <Image src={web6} alt='image' className='rounded-lg object-cover h-full' width={'100%'} height={'100%'} />
             </div>
           </div>
         </section>
